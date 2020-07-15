@@ -101,7 +101,8 @@ function Employee(name, email, hireDate) {
   // Code here
 
   Movie.prototype.changeRating = function (num) {
-    return this.rating / num
+    this.rating = (this.rating + num)/2
+    return this.rating
     
   }
   
