@@ -47,6 +47,8 @@ function Animal(name, species, food) {
 
 //Code Here
 
+const  animal1 = new Animal (`Goku`, `Saiyan`, `anything`)
+
 ////////// PROBLEM 3 //////////
 
 /*
