@@ -19,6 +19,14 @@
 
 //Code Here
 
+const user = {
+  username: `something`,
+  email : `something@some.com`,
+  getUsername: function(){
+    return this.username
+  }
+}
+
 ////////// PROBLEM 2 //////////
 
 /*
