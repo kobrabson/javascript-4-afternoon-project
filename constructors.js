@@ -69,6 +69,17 @@ function Employee(name, email, hireDate) {
   */
   
   // Code here
+
+  function Car(make, model, year, move){
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.move = 0;
+    this.moveCar = function(){
+      return this.move += 10
+    }
+
+  }
   
   ////////// PROBLEM 4 //////////
   
@@ -88,6 +99,11 @@ function Employee(name, email, hireDate) {
   }
   
   // Code here
+
+  Movie.prototype.changeRating = function (num) {
+    return this.rating / num
+    
+  }
   
   ////////// PROBLEM 5 //////////
   
